@@ -1,6 +1,6 @@
 # Arxiver
 
-A toolkit for downloading arXiv papers and processing them with Nougat for text extraction.
+A toolkit for downloading and converting arXiv papers to multi markdown (.mmd) format with Nougat - a neural OCR. Our pipeline can extract LaTeX equations and includes post-processing tools to clean up and merge extracted data. See the [arxiver](https://huggingface.co/datasets/neuralwork/arxiver) dataset on Hugging Face Hub for sample results.
 
 ## Project Structure
 ```
