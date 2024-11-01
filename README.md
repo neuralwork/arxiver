@@ -87,8 +87,7 @@ python extract_metadata.py --input-dir /path/to/merged-mmd-folder
 
 ## Notes
 - GPU with CUDA support is required for efficient processing
-- Processing speed depends on GPU memory and batch size
-- Each PDF is processed page by page and saved in multi markdown format (.mmd)
+- Tested on an NVIDIA T4 GPU, processing speed depends on GPU memory and batch size
 - arxiv-tools/ is adapted from the original [repo](https://github.com/armancohan/arxiv-tools)
 
 From [neuralwork](https://neuralwork.ai/) with :heart:
