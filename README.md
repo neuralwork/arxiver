@@ -6,11 +6,10 @@ A toolkit for downloading and converting arXiv papers to multi markdown (.mmd) f
 ```
 arxiver/
     arxiv-tools/          # Tools for downloading arXiv papers
+    utils/                # Utility files to check processed data, get article metadata, etc.
     nougat_inference.py   # Batch PDF processing script to extract text in .mmd format
     job_status_server.py  # Web server to monitor extraction progress
-    after_nougat/        
-        postprocess/      # Post-processing scripts for Nougat output
-        metadata/         # Metadata extraction and processing
+    postprocess.py        # Post-processing scripting to clean and merge Nougat outputs
 ```
 
 ## Downloading arXiv
